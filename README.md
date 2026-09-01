@@ -63,4 +63,4 @@ charged, and a call that would exceed your available balance is refused up front
 
 ---
 
-© DNS Publishing LLC, DBA VeriRoute Intel · [Terms](https://verirouteintel.com/terms) · [Privacy](https://verirouteintel.com/privacy)
+© First Light Holdings, LLC, DBA VeriRoute Intel · [Terms](https://verirouteintel.com/terms) · [Privacy](https://verirouteintel.com/privacy)
