@@ -1,5 +1,8 @@
 # VeriRoute Intel MCP Server
 
+[![smithery badge](https://smithery.ai/badge/verirouteintel/lookup)](https://smithery.ai/servers/verirouteintel/lookup)
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-com.verirouteintel%2Flookup-blue)](https://registry.modelcontextprotocol.io)
+
 Live **phone number intelligence for AI agents** — current carrier of record, line type,
 LRN routing data, porting activation date, caller-ID name (CNAM), spam/scam/robocall
 reputation, and bulk lookup jobs for US/Canada numbers. Always a fresh read of live
@@ -64,3 +67,7 @@ charged, and a call that would exceed your available balance is refused up front
 ---
 
 © First Light Holdings, LLC, DBA VeriRoute Intel · [Terms](https://verirouteintel.com/terms) · [Privacy](https://verirouteintel.com/privacy)
+
+## Directories
+
+Published in the [Official MCP Registry](https://registry.modelcontextprotocol.io) as `com.verirouteintel/lookup` · [Smithery](https://smithery.ai/servers/verirouteintel/lookup) · [MCP.so](https://mcp.so/servers/veriroute-intel-lookup)
