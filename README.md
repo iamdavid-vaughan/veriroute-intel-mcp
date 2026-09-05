@@ -3,10 +3,12 @@
 [![smithery badge](https://smithery.ai/badge/verirouteintel/lookup)](https://smithery.ai/servers/verirouteintel/lookup)
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-com.verirouteintel%2Flookup-blue)](https://registry.modelcontextprotocol.io)
 
-Live **phone number intelligence for AI agents** — current carrier of record, line type,
-LRN routing data, porting activation date, caller-ID name (CNAM), spam/scam/robocall
-reputation, and bulk lookup jobs for US/Canada numbers. Always a fresh read of live
-numbering infrastructure, never a stale cache.
+**Tells your agent whether a number is safe to call or text right now.** Live phone
+intelligence for AI agents — current carrier of record, line type, LRN routing data,
+porting activation date, caller-ID name (CNAM), spam/scam/robocall reputation, SMS
+deliverability with a TCPA 8am–9pm calling-window verdict, and bulk lookup jobs for
+US/Canada numbers. Every answer is a fresh read of live numbering infrastructure,
+never a stale cache. Free sandbox key, no card; pay per lookup, no minimums.
 
 This is a **hosted (remote) MCP server** — nothing to install or run.
 
