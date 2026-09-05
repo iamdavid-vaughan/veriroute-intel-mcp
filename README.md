@@ -47,6 +47,7 @@ Add a custom connector with URL `https://verirouteintel.com/api/mcp` and header
 |---|---|
 | `vri_number_lookup` | Live intelligence for one number: carrier, line type, LRN routing, porting date; optional CNAM, spam reputation, messaging provider |
 | `vri_spam_check` | Spam / scam / robocall reputation for one number |
+| `vri_sms_deliverability` | One verdict for outreach agents: can this number receive SMS, and is now a reasonable time to send? Line type, VoIP flag, spam reputation, and the recipient's approximate local time with an 8am–9pm calling-window flag |
 | `vri_bulk_lookup` | Up to 100 numbers in one call |
 | `vri_submit_job` | Submit an async bulk job (up to 10,000 numbers); balance reserved up front |
 | `vri_bulk_status` | Progress of one of your bulk jobs |
