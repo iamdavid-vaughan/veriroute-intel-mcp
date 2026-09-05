@@ -1,7 +1,7 @@
 {
   "name": "veriroute-intel-mcp",
-  "version": "1.2.0",
-  "description": "Local stdio shim for the hosted VeriRoute Intel MCP server — live phone intelligence (carrier, LRN, CNAM, spam, SMS deliverability) for AI agents.",
+  "version": "1.2.2",
+  "description": "Tells your agent whether a number is safe to call or text right now. Local stdio shim for the hosted VeriRoute Intel MCP server \u2014 live carrier, CNAM, spam, and SMS-deliverability checks.",
   "type": "module",
   "main": "server.js",
   "bin": {
@@ -25,5 +25,13 @@
     "lrn",
     "spam-check",
     "sms-deliverability"
-  ]
+  ],
+  "files": [
+    "server.js",
+    "tools.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "mcpName": "com.verirouteintel/lookup"
 }

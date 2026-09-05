@@ -19,7 +19,7 @@ import { dirname, join } from "node:path";
 
 const HOSTED_URL = process.env.VRI_MCP_URL || "https://verirouteintel.com/api/mcp";
 const API_KEY = process.env.VRI_API_KEY || null;
-const VERSION = "1.2.0";
+const VERSION = "1.2.2";
 const HERE = dirname(fileURLToPath(import.meta.url));
 
 // Embedded snapshot of the hosted server's tool list so discovery works
