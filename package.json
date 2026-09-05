@@ -1,0 +1,29 @@
+{
+  "name": "veriroute-intel-mcp",
+  "version": "1.2.0",
+  "description": "Local stdio shim for the hosted VeriRoute Intel MCP server — live phone intelligence (carrier, LRN, CNAM, spam, SMS deliverability) for AI agents.",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "veriroute-intel-mcp": "server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamdavid-vaughan/veriroute-intel-mcp"
+  },
+  "homepage": "https://verirouteintel.com/api-docs/mcp",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "phone-lookup",
+    "carrier-lookup",
+    "cnam",
+    "lrn",
+    "spam-check",
+    "sms-deliverability"
+  ]
+}

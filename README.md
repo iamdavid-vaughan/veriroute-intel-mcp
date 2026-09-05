@@ -72,3 +72,31 @@ charged, and a call that would exceed your available balance is refused up front
 ## Directories
 
 Published in the [Official MCP Registry](https://registry.modelcontextprotocol.io) as `com.verirouteintel/lookup` · [Smithery](https://smithery.ai/servers/verirouteintel/lookup) · [MCP.so](https://mcp.so/servers/veriroute-intel-lookup)
+
+### Local stdio (CI, offline, or clients without remote MCP)
+
+A zero-dependency Node shim in this repo forwards to the hosted server:
+
+```bash
+git clone https://github.com/iamdavid-vaughan/veriroute-intel-mcp
+cd veriroute-intel-mcp
+VRI_API_KEY=YOUR_API_KEY node server.js
+```
+
+Or in an `mcp.json`-style client config:
+
+```json
+{
+  "mcpServers": {
+    "vri": {
+      "command": "node",
+      "args": ["/path/to/veriroute-intel-mcp/server.js"],
+      "env": { "VRI_API_KEY": "YOUR_API_KEY" }
+    }
+  }
+}
+```
+
+Discovery works without a key; tool calls need one (free sandbox test keys
+return sample data with zero charges). Prefer the hosted endpoint whenever
+your client supports remote MCP.
