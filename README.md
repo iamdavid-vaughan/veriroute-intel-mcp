@@ -77,12 +77,10 @@ Published in the [Official MCP Registry](https://registry.modelcontextprotocol.i
 
 ### Local stdio (CI, offline, or clients without remote MCP)
 
-A zero-dependency Node shim in this repo forwards to the hosted server:
+A zero-dependency Node shim, published to npm, forwards to the hosted server:
 
 ```bash
-git clone https://github.com/verirouteintel/veriroute-intel-mcp
-cd veriroute-intel-mcp
-VRI_API_KEY=YOUR_API_KEY node server.js
+VRI_API_KEY=YOUR_API_KEY npx veriroute-intel-mcp
 ```
 
 Or in an `mcp.json`-style client config:
@@ -91,8 +89,8 @@ Or in an `mcp.json`-style client config:
 {
   "mcpServers": {
     "vri": {
-      "command": "node",
-      "args": ["/path/to/veriroute-intel-mcp/server.js"],
+      "command": "npx",
+      "args": ["-y", "veriroute-intel-mcp"],
       "env": { "VRI_API_KEY": "YOUR_API_KEY" }
     }
   }
