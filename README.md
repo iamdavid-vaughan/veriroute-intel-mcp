@@ -78,7 +78,7 @@ Published in the [Official MCP Registry](https://registry.modelcontextprotocol.i
 A zero-dependency Node shim in this repo forwards to the hosted server:
 
 ```bash
-git clone https://github.com/iamdavid-vaughan/veriroute-intel-mcp
+git clone https://github.com/verirouteintel/veriroute-intel-mcp
 cd veriroute-intel-mcp
 VRI_API_KEY=YOUR_API_KEY node server.js
 ```
