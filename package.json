@@ -29,6 +29,8 @@
   "files": [
     "server.js",
     "tools.json",
+    "plugin.json",
+    "mcp.json",
     "README.md",
     "LICENSE",
     "CHANGELOG.md"

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "veriroute-intel": {
+      "type": "streamable-http",
+      "url": "https://verirouteintel.com/api/mcp"
+    }
+  }
+}

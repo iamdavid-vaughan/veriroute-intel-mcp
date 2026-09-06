@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "verirouteintel.lookup",
+  "version": "1.2.2",
+  "description": "Tells your agent whether a US or Canadian phone number is safe to call or text right now: live carrier of record, line type, LRN, CNAM caller ID, spam/scam reputation with explainable confidence, SMS deliverability, and a TCPA 8 a.m.-9 p.m. calling-window verdict, plus bulk lookups.",
+  "author": {
+    "name": "VeriRoute Intel",
+    "url": "https://verirouteintel.com"
+  },
+  "homepage": "https://verirouteintel.com/api-docs/mcp",
+  "repository": "https://github.com/verirouteintel/veriroute-intel-mcp",
+  "license": "MIT",
+  "keywords": [
+    "phone",
+    "carrier",
+    "cnam",
+    "caller-id",
+    "spam",
+    "robocall",
+    "sms",
+    "deliverability",
+    "tcpa",
+    "lrn",
+    "telecom"
+  ]
+}
